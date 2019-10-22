@@ -1,0 +1,25 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U randfloat%b		randfloat.adb		ec1d40b8 NE OO PK IL
+
+U randfloat%s		randfloat.ads		728b909c EE NE OO PK IL
+
+D randfloat.ads		20190925193309 728b909c randfloat%s
+D randfloat.adb		20190926185553 9e96d024 randfloat%b
+D system.ads		20180524051735 085b6ffb system%s
+X 1 randfloat.ads
+1K9*randfloat 5l5 5e14 2|2b14 17l5 17t14
+3V13*next_float{float} 2|6b13 15l8 15t18
+X 2 randfloat.adb
+4i4 x{integer} 11m7 11r12 12r12 13m7 13r12
+7i7 n{integer} 12m7 14r20
+

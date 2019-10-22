@@ -1,0 +1,136 @@
+
+pushed : Tie'A'pushed : Star'A'
+pushed : Tie'B'
+pushed : Tie'C'
+Vehicle Type : STAR_DESTROYER
+Vehicle Name : Star'A'
+Time to repair :  3
+Start time :  0
+Finish time :  3
+vehicle status : SERVICED
+
+
+pushed : Tie'D'
+pushed : Tie'E'
+pushed : Tie'F'pushed : Star'B'
+Vehicle Type : STAR_DESTROYER
+Vehicle Name : Star'B'
+Time to repair :  3
+Start time :  5
+Finish time :  8
+vehicle status : SERVICED
+
+
+pushed : Tie'G'
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'G'
+Time to repair :  2
+Start time :  10
+Finish time :  12
+vehicle status : SERVICED
+
+
+pushed : Tie'H'
+pushed : Tie'I'
+pushed : Tie'J'
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'J'
+Time to repair :  4
+Start time :  14
+Finish time :  18
+vehicle status : SERVICED
+
+
+pushed : Tie'K'
+pushed : Tie'L'pushed : Star'C'pushed : Star'D'
+Vehicle Type : STAR_DESTROYER
+Vehicle Name : Star'D'
+Time to repair :  4
+Start time :  20
+Finish time :  24
+vehicle status : SERVICED
+
+
+pushed : Tie'M'
+pushed : Tie'N'
+Vehicle Type : STAR_DESTROYER
+Vehicle Name : Star'C'
+Time to repair :  3
+Start time :  26
+Finish time :  29
+vehicle status : SERVICED
+
+
+pushed : Tie'O'
+pushed : Tie'P'pushed : Star'E'
+Vehicle Type : STAR_DESTROYER
+Vehicle Name : Star'E'
+Time to repair :  10
+Start time :  31
+Finish time :  41
+vehicle status : SERVICED
+
+
+pushed : Tie'Q'
+pushed : Tie'R'
+pushed : Tie'S'
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'S'
+Time to repair :  6
+Start time :  43
+Finish time :  49
+vehicle status : SERVICED
+
+
+pushed : Tie'T'
+pushed : Tie'U'
+pushed : Tie'V'
+pushed : Tie'W'
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'W'
+Time to repair :  6
+Start time :  51
+Finish time :  57
+vehicle status : SERVICED
+
+
+pushed : Tie'X'
+Occupancy full. Sending vehicle to the Dagaba System...Vehicle rejected : Tie'Y'Rejected Time 59
+Occupancy full. Sending vehicle to the Dagaba System...Vehicle rejected : Tie'Z'Rejected Time 59
+Occupancy full. Sending vehicle to the Dagaba System...Vehicle rejected : Tie'A'Rejected Time 59
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'X'
+Time to repair :  4
+Start time :  59
+Finish time :  63
+vehicle status : SERVICED
+
+
+pushed : Tie'B'
+Occupancy full. Sending vehicle to the Dagaba System...Vehicle rejected : Star'F'Rejected Time 65
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'B'
+Time to repair :  2
+Start time :  65
+Finish time :  67
+vehicle status : SERVICED
+
+
+pushed : Tie'C'
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'C'
+Time to repair :  6
+Start time :  69
+Finish time :  75
+vehicle status : SERVICED
+
+
+pushed : Tie'D'
+Occupancy full. Sending vehicle to the Dagaba System...Vehicle rejected : Tie'E'Rejected Time 77
+Vehicle Type : TIE_FIGHTER
+Vehicle Name : Tie'D'
+Time to repair :  6
+Start time :  77
+Finish time :  83
+vehicle status : SERVICED
+

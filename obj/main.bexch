@@ -1,0 +1,18 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/Users/dsawyer/ADA/LAB_1/lab_1.gpr
+20190925163938
+[BOUND OBJECT FILES]
+/Users/dsawyer/ADA/LAB_1/obj/randfloat.o
+/Users/dsawyer/ADA/LAB_1/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/Users/dsawyer/ADA/LAB_1/obj/
+-L/Users/dsawyer/ADA/LAB_1/obj/
+-L/users/dsawyer/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/
+-static
+/users/dsawyer/opt/gnat/2018/lib/gcc/x86_64-apple-darwin16.7.0/7.3.1/adalib/libgnat.a

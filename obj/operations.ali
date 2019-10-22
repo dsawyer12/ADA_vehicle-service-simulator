@@ -1,0 +1,174 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U operations%b		operations.adb		f2572903 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W randfloat%s		randfloat.adb		randfloat.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U operations%s		operations.ads		a7cd0719 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W maintenancerecord%s	maintenancerecord.adb	maintenancerecord.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-calend.ads		20180524051736 372815c8 ada.calendar%s
+D a-caldel.ads		20180524051734 9f20b83d ada.calendar.delays%s
+D a-charac.ads		20180524051735 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051735 66457d31 ada.characters.latin_1%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051736 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-string.ads		20180524051735 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051735 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051736 8098c91f ada.strings.unbounded%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D maintenancerecord.ads	20190926200824 df751ab5 maintenancerecord%s
+D operations.ads	20190926201558 f0a5aef6 operations%s
+D operations.adb	20190926201516 f0e1de76 operations%b
+D randfloat.ads		20190925193309 728b909c randfloat%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-atocou.ads		20180524051736 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20180524051735 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-finmas.ads		20180524051736 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051736 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-memory.ads		20180524051735 597d6634 system.memory%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stalib.adb		20180524051734 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524051735 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180524051734 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180524051734 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 19|2r6 2r23 20|2r6 2r33
+X 10 a-string.ads
+16K13*Strings 35e16 20|2r10 2r37
+X 12 a-strunb.ads
+76K21*Unbounded 491e26 20|2w18 2r45
+100V13*To_String{string} 20|29s44 45s43 58s43
+X 14 a-textio.ads
+49K13*Text_IO 471e16 19|2w10 2r27
+52P9*File_Type 19|12r61 13r62 20|70r61 93r62
+165U14*New_Line 20|27s7 44s16
+166U14*New_Line 20|57s16
+241U14*Put 20|28s7 29s7 30s7 45s16 58s16
+263U14*Put_Line 20|74s10 97s10
+X 18 maintenancerecord.ads
+3K9*MaintenanceRecord 20e22 19|1w6 1r29
+5p4*outFile{14|52P9} 20|27r16 28r11 29r11 30r11 44r25 45r20 58r20
+7E9*vehicle_type 7e54 19|15r36 16r38 20|117r36 148r38
+7n26*Tie_Fighter{7E9} 20|39r15 123r15 154r17
+7n39*Star_Destroyer{7E9} 20|52r15 132r15 157r12
+8n26*serviced{8E9} 20|78r27 101r27
+8n36*rejected{8E9} 20|47r40 60r40
+10R9*maintenance_record 16e14 19|8r46 10r43 11r63 20|25r43 35r63 71r14 94r14
+11e7*vehicleType{7E9} 20|37r24
+12r7*vehile_name{12|79R9} 20|29r66 45r65 58r65
+13i7*repair_time{integer} 20|80r26 82r39 103r26 105r39
+13i20*start_time{integer} 20|79m15 102m15
+13i32*finish_time{integer} 20|84m15 107m15
+14e7*serviced{8E9} 20|47m28 60m28 78m15 101m15
+18U14*report 20|86s10 109s10
+X 19 operations.ads
+3K9*Operations 18l5 18e15 20|3b14 162l5 162t15
+5i4*TieTop{integer} 20|40r16 41m16 41r26 42r22 53r26 73r10 76r24 77m10 77r20
+5i12*StarTop{integer} 20|40r25 53r16 54m16 54r27 55r22 96r11 99r24 100m10
+. 100r21
+5i21*lower{integer}
+5i28*upper{integer}
+5i35*numRejects{integer} 20|48m16 48r30 61m16 61r30
+5i47*ET{integer} 20|30r52 79r29 80m10 80r16 84r30 85m10 85r16 102r29 103m10
+. 103r16 107r30 108m10 108r16
+6i4*TiesRepaired{integer} 20|87m10 87r26
+6i18*StarsRepaired{integer} 20|111m10 111r27
+8A9*vector(18|10R9)<integer> 11r34 12r36 13r37 20|35r34 70r36 93r37
+10U14*reportRejected 10>29 20|25b14 31l8 31t22 49s16 62s16
+10r29 record_item{18|10R9} 20|25b29 29r54
+11U14*push 11=19 11=42 20|35b14 66l8 66t12
+11a19 stack{8A9} 20|35b19 42m16 55m16
+11r42 record_item{18|10R9} 20|35b42 37r12 42r33 45r53 47m16 49r31 55r34 58r53
+. 60m16 62r31
+12U14*popTie 12=21 12=44 20|70b14 89l8 89t14
+12a21 stack{8A9} 20|70b21 76r18
+12p44 outFile{14|52P9} 20|70b44 86m23
+13U14*popStar 13=22 13=45 20|93b14 113l8 113t15
+13a22 stack{8A9} 20|93b22 96r21 99r18
+13p45 outFile{14|52P9} 20|93b45 109m23
+14V13*NumberNewArrivals{integer} 20|7b13 21l9 21t26
+15V13*timeToRepair{integer} 15>26 20|117b13 144l8 144t20
+15e26 vehicle{18|7E9} 20|117b26 122r12
+16V13*arrrivalForRepair{18|7E9} 20|148b13 160l8 160t25
+X 20 operations.adb
+8f7 randNum{float} 10m7 11r10 13r13 16r10
+71r7 item{18|10R9} 76m10 76r10 78m10 79m10 80r21 82r34 84m10 86r17
+94r7 item{18|10R9} 99m10 99r10 101m10 102m10 103r21 105r34 107m10 109r17
+118f7 randNum{float} 121m7 124r16 126r19 133r16 135r19 137r19
+149f7 randNum{float} 152m7 153r10
+X 21 randfloat.ads
+1K9*randfloat 20|1w6 1r21 21|5e14
+3V13*next_float{float} 20|10s18 121s18 152s18
+X 22 system.ads
+67M9*Address
+X 31 s-memory.ads
+53V13*Alloc{22|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{22|67M9} 105i<c,__gnat_realloc>22
+X 37 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
